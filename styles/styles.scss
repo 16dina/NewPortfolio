@@ -903,9 +903,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-
+    flex-direction: column;
     img {
         max-width: 75%;
+        margin: 1rem;
     }
 }
 
@@ -913,12 +914,43 @@ body {
     margin: 5%;
     display: flex;
     justify-content: center;
-
+    flex-direction: column;
+    align-items: center;
     p {
         text-align: center;
         width: 90%;
         text-align: left;
     }
+    img{
+        max-width: 25%;
+        margin: 5%;
+    }
+}
+
+.download{
+    padding: 15px 20px 15px 20px;
+    background-color: var(--color-grey-5);
+    color: var(--color-white);
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: inherit;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+    &:hover{
+        background-color: var(--color-secondary);
+        transition: all .4s ease-in-out;
+    }
+}
+
+.download-con{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.video-frame{
+    display: flex;
+    justify-content: center;
 }
 
 
