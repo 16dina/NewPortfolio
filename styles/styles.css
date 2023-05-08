@@ -331,8 +331,11 @@ body {
 }
 .portfolios .portfolio-item .hover-items h3 {
   font-size: 1.5rem;
+  padding-left: 10px;
+  padding-right: 10px;
   margin-bottom: 1.5rem;
   color: var(--color-white);
+  text-align: center;
 }
 .portfolios .portfolio-item .hover-items .icons {
   display: flex;
@@ -643,22 +646,22 @@ body {
   width: 60%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .html {
-  width: 80%;
+  width: 95%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .css-sass {
-  width: 95%;
+  width: 90%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .js {
   width: 75%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .java {
-  width: 60%;
+  width: 85%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .php {
-  width: 87%;
+  width: 85%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .python {
-  width: 70%;
+  width: 75%;
 }
 
 .stat-title {
@@ -802,7 +805,7 @@ body {
   text-align: left;
 }
 .intro-text img {
-  max-width: 25%;
+  max-width: 40%;
   margin: 5%;
 }
 
@@ -830,6 +833,13 @@ body {
 .video-frame {
   display: flex;
   justify-content: center;
+}
+
+.here {
+  text-decoration: underline;
+}
+.here:hover {
+  color: var(--color-secondary);
 }
 
 @media screen and (max-width: 600px) {

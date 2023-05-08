@@ -368,8 +368,11 @@ body {
 
             h3 {
                 font-size: 1.5rem;
+                padding-left: 10px;
+                padding-right: 10px;
                 margin-bottom: 1.5rem;
                 color: var(--color-white);
+                text-align: center;
             }
 
             .icons {
@@ -728,11 +731,11 @@ body {
                     }
 
                     .html {
-                        width: 80%;
+                        width: 95%;
                     }
 
                     .css-sass {
-                        width: 95%;
+                        width: 90%;
                     }
 
                     .js {
@@ -740,15 +743,15 @@ body {
                     }
 
                     .java {
-                        width: 60%;
+                        width: 85%;
                     }
 
                     .php {
-                        width: 87%;
+                        width: 85%;
                     }
 
                     .python {
-                        width: 70%;
+                        width: 75%;
                     }
                 }
             }
@@ -922,7 +925,7 @@ body {
         text-align: left;
     }
     img{
-        max-width: 25%;
+        max-width: 40%;
         margin: 5%;
     }
 }
@@ -951,6 +954,13 @@ body {
 .video-frame{
     display: flex;
     justify-content: center;
+}
+
+.here{
+    text-decoration: underline;
+    &:hover{
+        color: var(--color-secondary);
+    }
 }
 
 
