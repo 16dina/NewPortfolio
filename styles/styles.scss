@@ -78,27 +78,39 @@ section{
 }
 
 .sec2{
-    display: none;
+    //display: none;
     transform: translateY(0) scale(1);
 }
 
 .sec3{
-    display: none;
+    //display: none;
     transform: translateY(0) scale(1);
 }
 
 .sec4{
-    display: none;
+    //display: none;
     transform: translateY(0) scale(1);
 }
 
 .sec5{
-    display: none;
+    //display: none;
     transform: translateY(0) scale(1);
 }
 
 .active{
     display: block;
+    animation: scaleAnim 1s ease-in-out;
+    @keyframes scaleAnim {
+        0%{
+            transform: translateY(-100%) scaleY(0);
+        }
+        100%{
+            transform: translateY(0) scaleY(1);
+        }
+    }
+}
+
+body{
     animation: scaleAnim 1s ease-in-out;
     @keyframes scaleAnim {
         0%{
@@ -140,6 +152,14 @@ section{
         align-items: center;
         margin: .7rem 0;
         box-shadow: var(--box-shadow-1);
+        transition: all .4s ease-in-out;
+        &:hover{
+            transform: translateY(-5px);
+            background-color: var(--color-white);
+            i{
+                color: var(--color-secondary);
+            }
+        }
         i{
             color: var(--color-grey0);
         }
