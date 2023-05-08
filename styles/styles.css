@@ -842,6 +842,10 @@ body {
   color: var(--color-secondary);
 }
 
+blockquote {
+  color: var(--color-white);
+}
+
 @media screen and (max-width: 600px) {
   .theme-btn {
     width: 50px;
