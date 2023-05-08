@@ -3,7 +3,7 @@ const sectBtns = document.querySelectorAll('.controlls');
 const sectBtn = document.querySelectorAll('.control');
 const allSections = document.querySelector('.main-content');
 
-function PageTransitions(){
+function PageTransitions() {
     // Button click active class
     // Note: "this" keyword doesn't exist in an arrow function
     // for(let i = 0; i < sectBtn.length; i++){
@@ -24,7 +24,7 @@ function PageTransitions(){
     //             btn.classList.remove('active')
     //         })
     //         e.target.classList.add('active')
-            
+
     //         // Hide other sections
     //         sections.forEach((section) =>{
     //             section.classList.remove('active')
@@ -37,10 +37,29 @@ function PageTransitions(){
 
     // Toggle theme
     const themeBtn = document.querySelector('.theme-btn');
-    themeBtn.addEventListener('click',() =>{
+    themeBtn.addEventListener('click', () => {
         let element = document.body;
         element.classList.toggle('light-mode')
     })
+
+    // const projectSectionHeading = document.querySelectorAll('.project-section-heading');
+
+    // projectSectionHeading.forEach(heading => {
+    //     heading.addEventListener('click', () => {
+    //         const content = heading.nextElementSibling;
+    //         content.style.display = content.style.display === 'block' ? 'none' : 'block';
+    //     });
+    // });
+
+//     const projectSectionHeading = document.querySelectorAll('.project-section-heading');
+
+// projectSectionHeading.forEach(heading => {
+//   heading.addEventListener('click', () => {
+//     const content = heading.nextElementSibling;
+//     content.classList.toggle('show-content');
+//   });
+// });
+
 }
 
 PageTransitions();

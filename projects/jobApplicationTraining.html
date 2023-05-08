@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="main-content">
+    <main>
+        <section class="section sec3 portfolio" id="portfolio">
+            <div class="main-title">
+                <h2><span>Requirements analysis project:</span> job application training webapp</h2>
+            </div>
+            <div class="intro-text">
+                <p>This project was part of my Requirements Analysis class at Thomas More. In this
+                    project, I
+                    worked with a
+                    team to make a web application for a client who is our study coach (a teacher at the university).
+                </p>
+            </div>
+            <div class="project-section">
+                <div class="collapsable">
+                    <input type="checkbox" id="collapsable-head-1">
+                    <label for="collapsable-head-1">Background information</label>
+                    <div class="project-section-content">
+                        <p>
+                            The Job Application Training is provided for graduating IT students at Thomas More
+                            Hogeschool by the
+                            coordinators. The third year students get the chance to participate in a mock job interview
+                            with a
+                            designated recruiter from participating IT companies.
+                            Currently, this job application training is coordinated by 2 ITF lecturers using Word and
+                            Excel
+                            documents, email messages and multiple other platforms.
+                            This approach of maintaining the information regarding bookings and appointments with the
+                            use of
+                            many
+                            different channels and making it available on various platforms by the coordinators is very
+                            labour-intensive.
+                            The coordinators have to keep track of this information and make sure it is up-to-date and
+                            accurate
+                            by
+                            continuously communicating with the parties involved (student and company), which can be
+                            confusing
+                            and
+                            lead to miscommunication and delays.
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="collapsable">
+                    <input type="checkbox" id="collapsable-head-2">
+                    <label for="collapsable-head-2">About this app</label>
+                    <div class="project-section-content">
+                        <p>
+                            The main goal of the requested web application is to simplify the administration process,
+                            and to allow the coordinator to easily manage the booking and appointment information about
+                            the involved parties. This will result in making the coordinator's job less
+                            labour-intensive. More specifically, the parties involved will experience the following
+                            benefits from this new system:
+                        </p>
+                        <ul>
+                            <li>Coordinators will spend less time managing student accounts, communicating with the
+                                students and companies, and performing labour-intensive tasks. Booking interviews,
+                                managing appointments, and providing feedback will be managed easily.</li>
+                            <li>Companies will be able to easily share and update information about themselves.</li>
+                            <li>Students will be able to easily view the participating companies, and more efficiently
+                                schedule interviews. Information on scheduled interviews will be more clearly available
+                                to them, reducing the risk of forgotten and overlapping interviews. They should still
+                                have the option to cancel or reschedule an interview before a deadline.</li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div class="collapsable">
+                    <input type="checkbox" id="collapsable-head-3">
+                    <label for="collapsable-head-3">My role in the project</label>
+                    <div class="project-section-content">
+                        <p>
+                            Since this project was a part of the Requirements Analysis class, our work was more about
+                            analysing the client's request and determining their expectations for the end product. I
+                            took part in interviewing the client, extracting functionalities, drawing out the use case
+                            diagram, making prototypes for how the app would potentially look like, and finally writing
+                            a report containing all the different use cases (functionalities) and each's description.
+                            This report would then serve as the starting point later on for the next analysis and design
+                            team when drawing out the Entity Relationship Diagram (ERD), and for the developers when
+                            programming the actual end product.
+
+
+                            Besides the previously mentioned tasks, I was specifically resonsible at the end for
+                            reviewing and proofreading the team's report, checking the consistency of it, and finally
+                            submitting it.
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="collapsable">
+                    <input type="checkbox" id="collapsable-head-4">
+                    <label for="collapsable-head-4">Project demo</label>
+                    <div class="project-section-content">
+                        <h4>User case diagram</h4>
+                        <p>
+                            StarUML was the used software to model the diagram.
+                        </p>
+                        <div class="image">
+                            <img src="/img/DDP2.png" alt="Use case diagram">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <div class="controlls">
+        <a class="control control-1" data-id="home" href="index.html">
+            <i class="fa-solid fa-house"></i>
+        </a>
+        <a class="control control-2" data-id="about" href="about.html">
+            <i class="fa-solid fa-user"></i>
+        </a>
+        <a class="control control-3 active-btn" data-id="portfolio" href="portfolio.html">
+            <i class="fa-solid fa-briefcase"></i>
+        </a>
+        <a class="control control-5" data-id="contact" href="contact.html">
+            <i class="fa-solid fa-envelope-open"></i>
+        </a>
+    </div>
+
+    <div class="theme-btn">
+        <i class="fas fa-adjust"></i>
+    </div>
+
+    <script src="/app.js"></script>
+
+</body>
+
+</html>
